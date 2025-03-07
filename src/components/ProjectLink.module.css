@@ -1,0 +1,24 @@
+.projectLinkContainer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.textBox {
+    flex:1;
+    padding: 4px;
+    max-width:300px;
+    text-align: left;
+}
+
+.imageContainer {
+    flex: 1;
+    padding: 4px;
+    max-width:300px;
+    text-align: center;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+}

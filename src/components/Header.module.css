@@ -1,0 +1,17 @@
+/* Header.module.css */
+
+.header {
+    background-color: #20242c;
+    color: hsl(137, 41%, 58%);
+    padding: 0px 300px 20px 300px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .navLink {
+    color: white;
+    margin: 0px 12px 0px 12px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
