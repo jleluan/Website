@@ -15,6 +15,12 @@ function Header() {
         <Link to="/about" className={styles.navLink}>
           About
         </Link>
+        <Link to="/TestPage" className={styles.navLink}>
+          TestPage
+        </Link>
+        <Link to="/projects/project1" className={styles.navLink}>
+          Proj1
+        </Link>
       </nav>
     </header>
   );

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import ProjectLink from "../components/ProjectLink";
 import exampleimage from '../assets/images/exampleimage.png';
 
+
 function Projects() {
   return (
     <div style={{ textAlign: "center", color: "white" }}>
@@ -13,8 +14,8 @@ function Projects() {
         <li><Link to="/projects/project3" style={{ color: "lightblue" }}>Project 3</Link></li>
         <li><Link to="/projects/project4" style={{ color: "lightblue" }}>Project 4</Link></li>
       </ul>
-      <ProjectLink text="Example text Example text Example text Example text Example text Example text Example text Example text Example text Example text" imageUrl={exampleimage}/>
-      <ProjectLink text="Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2" imageUrl={exampleimage}/>
+      <ProjectLink text="Example text Example text Example text Example text Example text Example text Example text Example text Example text Example text" imageUrl={exampleimage} to="project1"/>
+      <ProjectLink text="Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2 Example text2" imageUrl={exampleimage} to="project2"/>
     </div>
   );
 }
